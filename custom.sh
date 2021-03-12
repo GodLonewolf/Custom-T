@@ -18,7 +18,7 @@ done
 done
 printf "   \b\b\b\b\b"
 tput cnorm
-printf "\e[1;33m [Done]   \e[0m";
+printf "\e[1;33m    [Done]\e[0m";
 echo "";
 
 }

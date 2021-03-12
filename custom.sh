@@ -118,7 +118,7 @@ clear
 echo "NAME=$PROC" > ~/.username
 TNAME="$PROC";
 echo ;
-figlet -f ASCII-Shadow "$PROC" | lolcat;
+figlet -f ASCII-Shadow.flf "$PROC" | lolcat;
 echo "";
 echo "";
 echo -e "

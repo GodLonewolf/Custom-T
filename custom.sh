@@ -118,7 +118,7 @@ clear
 echo "NAME=$PROC" > ~/.username
 TNAME="$PROC";
 echo ;
-figlet -f ASCII-Shadow.flf "$PROC" | lolcat;
+figlet -f ASCII-Shadow "$PROC" | lolcat;
 echo "";
 echo "";
 echo -e "
@@ -140,7 +140,7 @@ cat >> ~/.zshrc <<-EOF
 tput cnorm
 clear
 ## terminal banner
-figlet -f ASCII-Shadow.flf "$PROC" | lolcat;
+figlet -f ASCII-Shadow "$PROC" | lolcat;
 echo
 ## cursor
 printf '\e[4 q'
